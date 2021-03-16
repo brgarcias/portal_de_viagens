@@ -1,0 +1,135 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+/* Header */
+
+header {
+    background: #2F4F4F;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Logo */
+
+.logo h1 {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+/* Menu */
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    padding: 0 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+/* Rick e Morty */
+
+.rick-morty {
+    background: #5ee0b6;
+    color: #ffffff;
+}
+
+.div-rick-morty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+/* Imagem Nave */
+
+.div-rick-morty img {
+    width: 30%;
+}
+
+/* Titulo */
+
+.div-rick-morty h2 {
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Texto */
+
+.div-rick-morty p {
+    width: 75%;
+    text-align: center;
+}
+
+/* Consultar Valores */
+
+.div-consultar-valores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.consultar-valores h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #223535;
+    font-weight: 800;
+}
+
+.div-form {
+    width: 70%;
+}
+
+/* Formulário */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario input {
+    margin: 10px 0 20px 0;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+}
+
+input:focus {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    outline: -webkit-focus-ring-color 1px;
+}
+
+.formulario button {
+    width: fit-content;
+    padding: 10px 15px;
+    border: 0;
+    background: #5ee0b6;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
