@@ -1,100 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Título -->
     <title>Portal de Viagens - Bruno Garcia</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- Header -->
     <header>
-        <div class="header">
-            <div class="logo">
-                <h1>Portal de Viagens</h1>
-            </div>
-
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#destinos">Destinos</a>
-                        </li>
-                        <li>
-                            <a href="#valores">Valores</a>
-                        </li>
-                        <li>
-                            <a href="#contato">Contato</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="container row header align-items-center m-auto">
+        <div class="col logo">
+          <h1 class="m-0 text-left text-uppercase">Portal de Viagens</h1>
         </div>
+
+        <div class="col menu">
+          <nav>
+            <ul class="row list-unstyled m-0 justify-content-end">
+              <li class="text-uppercase text-left">
+                <a href="#destinos">Destinos</a>
+              </li>
+              <li class="text-uppercase text-left">
+                <a href="#valores">Valores</a>
+              </li>
+              <li class="text-uppercase text-left">
+                <a href="#contato">Contato</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <!-- Rick e Morty Nave -->
     <section id="destinos" class="rick-morty">
-        <div class="div-rick-morty">
-            <img src="assets/images/rick-and-morty-nave.png" alt="Rick And Morty Nave - Bruno Garcia">
-            <h2>As melhores naves!</h2>
-            <p>
-                Preços especiais para os planetas da federação galática. Visite ainda universos, dimensões e realidades
-                alternativas.
-            </p>
-        </div>
+      <div
+        class="flex-column d-flex justify-content-center align-items-center div-rick-morty"
+      >
+        <img
+          src="assets/images/rick-and-morty-nave.png"
+          alt="Rick And Morty Nave - Bruno Garcia"
+        />
+        <h2 class="text-center text-uppercase">As melhores naves!</h2>
+        <p class="text-center">
+          Preços especiais para os planetas da federação galática. Visite ainda
+          universos, dimensões e realidades alternativas.
+        </p>
+      </div>
     </section>
 
     <!-- Consultar Valores -->
     <section id="valores" class="consultar-valores">
-        <div class="div-consultar-valores">
-            <h2>Consultar Valores</h2>
-            <div class="div-form">
-                <form class="formulario" action="">
-                    <label for="origem">Origem</label>
-                    <input type="text" name="origem" id="origem">
+      <div class="d-flex flex-column justify-content-center align-items-center div-consultar-valores">
+        <h2 class="text-center text-uppercase font-weight-bolder">
+          Consultar Valores
+        </h2>
+        <div class="div-form">
+          <form class="d-flex flex-column justify-content-center formulario" action="">
+            <label for="origem">Origem</label>
+            <input type="text" name="origem" id="origem" />
 
-                    <label for="destino">Destino</label>
-                    <input type="text" name="destino" id="destino">
+            <label for="destino">Destino</label>
+            <input type="text" name="destino" id="destino" />
 
-                    <label for="data-de-partida">Data de Partida</label>
-                    <input type="text" name="dataDePartida" id="data-de-partida">
+            <label for="data-de-partida">Data de Partida</label>
+            <input type="text" name="dataDePartida" id="data-de-partida" />
 
-                    <label for="data-de-volta">Data de Volta</label>
-                    <input type="text" name="data-de-volta" id="data-de-volta">
+            <label for="data-de-volta">Data de Volta</label>
+            <input type="text" name="data-de-volta" id="data-de-volta" />
 
-                    <button class="consultar" type="submit">Consultar</button>
-                </form>
-            </div>
+            <button class="border-0 consultar" type="submit">Consultar</button>
+          </form>
         </div>
+      </div>
     </section>
 
-</body>
-
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

@@ -11,49 +11,37 @@ img {
     -webkit-user-drag: none;
 }
 
-/* Header */
+/* ==========================
+    Header 
+========================== */
 
 header {
     background: #2F4F4F;
     color: #ffffff;
-    padding: 5px 0;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    padding: 15px 0;
 }
 
 /* Logo */
 
 .logo h1 {
-    text-align: right;
-    text-transform: uppercase;
     font-size: 1.1em;
 }
 
 /* Menu */
 
-.menu ul {
-    list-style: none;
-    display: flex;
-}
-
 .menu ul li {
     padding: 0 10px;
-    text-align: left;
-    text-transform: uppercase;
     font-size: 0.7em;
 }
 
 .menu ul li a {
-    color:#ffffff;
+    color: #ffffff;
     text-decoration: none;
 }
 
-/* Rick e Morty */
+/* ==========================
+    Rick e Morty 
+========================== */
 
 .rick-morty {
     background: #5ee0b6;
@@ -61,10 +49,6 @@ header {
 }
 
 .div-rick-morty {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 70px 0;
 }
 
@@ -78,33 +62,25 @@ header {
 
 .div-rick-morty h2 {
     font-size: 2.5em;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 /* Texto */
 
 .div-rick-morty p {
     width: 75%;
-    text-align: center;
 }
 
-/* Consultar Valores */
+/* ==========================
+    Consultar Valores
+========================== */
 
 .div-consultar-valores {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 40px 0 70px 0;
 }
 
 .consultar-valores h2 {
-    text-align: center;
-    text-transform: uppercase;
     font-size: 2em;
     color: #223535;
-    font-weight: 800;
 }
 
 .div-form {
@@ -112,12 +88,6 @@ header {
 }
 
 /* Formulário */
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .formulario input {
     margin: 10px 0 20px 0;
@@ -134,7 +104,6 @@ input:focus {
 .formulario button {
     width: fit-content;
     padding: 10px 15px;
-    border: 0;
     background: #5ee0b6;
     color: #ffffff;
     border-radius: 5px;
@@ -152,6 +121,12 @@ input:focus {
     }
     .div-rick-morty h2, .consultar-valores h2 {
         font-size: 1.7em;
+    }
+    .logo h1 {
+        font-size: 0.6em;
+    }
+    .menu ul li {
+        font-size: 0.6em;
     }
 }
 
